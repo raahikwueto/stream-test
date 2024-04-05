@@ -6,4 +6,4 @@ WORKDIR /
 COPY wait.sh wait.sh
 COPY target/flink-autoscaler-standalone-1.9-SNAPSHOT.jar .
 
-CMD java -cp flink-autoscaler-standalone-1.9-SNAPSHOT.jar org.apache.flink.autoscaler.standalone.StandaloneAutoscalerEntrypoint --flinkClusterHost=localhost, --flinkClusterPort=8081
+CMD java -cp flink-autoscaler-standalone-1.9-SNAPSHOT.jar org.apache.flink.autoscaler.standalone.StandaloneAutoscalerEntrypoint --flinkClusterHost=localhost, --flinkClusterPort=8082
